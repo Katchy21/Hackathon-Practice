@@ -97,6 +97,50 @@
     transition: all 4s ease;
 }
 
+.photos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 80%;
+    margin: 5rem auto;
+    gap: 2rem;
+
+}
+.entries {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.entry {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.entry h3{
+    font-size: 2rem;
+}
+.entry p {
+    font-size: 1.5rem;
+}
+.photos h2 {
+    font-size: 3rem;
+}
+.photos .image-container {
+    overflow: hidden;
+    width: 20rem;
+    border-radius: 10px; 
+}
+.photos img{
+    width: 20rem;
+    transition: transform 0.6s ease;
+}
+.photos img:hover {
+    transform: scale(1.2);
+}
 .active{
     opacity: 1 !important;
     visibility: visible !important;
